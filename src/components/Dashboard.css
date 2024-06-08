@@ -1,0 +1,65 @@
+Dashboard.css 
+.dashboard {
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .recharts-tooltip-wrapper {
+    background: #fff !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .custom-tooltip {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .custom-tooltip p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .custom-tooltip .label {
+    font-weight: bold;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .chart-container {
+    animation: fadeIn 1s ease-in-out;
+  }
+   
+
+
+
+ 
+  
+  
+  
+  
+  
+  
